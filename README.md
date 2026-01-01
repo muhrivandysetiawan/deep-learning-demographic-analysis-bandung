@@ -26,25 +26,25 @@ This project implements Deep Learning methodologies, specifically **Autoencoder*
 deep-learning-demographic-analysis-bandung/   </br>
 ├── README.md                            </br>
 ├── data/                                </br>
-│   ├── total_e_ktp_ownership_coverage_bandung.csv  </br>
-│   ├── population_by_religion_bandung.csv  </br>
-│   ├── population_by_blood_type_bandung.csv  </br>
-│   ├── population_by_gender_bandung.csv  </br>
-│   ├── population_by_occupation_bandung.csv  </br>
-│   ├── population_by_education_level_bandung.csv  </br>
-│   ├── population_by_district_bandung.csv  </br>
 │   ├── population_by_age_group_bandung.csv  </br>
-│   ├── population_by_subdistrict_bandung.csv  </br>
+│   ├── population_by_blood_type_bandung.csv  </br>
+│   ├── population_by_district_bandung.csv  </br>
+│   ├── population_by_education_level_bandung.csv  </br>
+│   ├── population_by_gender_bandung.csv  </br>
 │   ├── population_by_marital_status_bandung.csv  </br>
-│   ├── total_population_bandung.csv  </br>
-│   └── population_eligible_for_id_cards_bandung.csv  </br>
+│   ├── population_by_occupation_bandung.csv  </br>
+│   ├── population_by_religion_bandung.csv  </br>
+│   ├── population_by_subdistrict_bandung.csv  </br>
+│   ├── population_eligible_for_id_cards_bandung.csv  </br>
+│   ├── total_e_ktp_ownership_coverage_bandung.csv  </br>
+│   └── total_population_bandung.csv  </br>
 ├── src/                                </br>
-│   ├── GeneralDataLoader.py  </br>
 │   ├── DuplicationCleanerMerger.py  </br>
 │   ├── FinalDemographicCleaner.py  </br>
+│   ├── GeneralDataLoader.py  </br>
+│   ├── main.py  </br>
 │   ├── ProfessionalDemographicEDA.py  </br>
-│   ├── UltimateDemographicAI.py  </br>
-│   └── main.py  </br>
+│   └── UltimateDemographicAI.py  </br>
 ├── docs/                               </br>
 │   └── jurnal_registratie_5572.pdf      </br>
 ├── requirements.txt                     </br>
@@ -53,7 +53,7 @@ deep-learning-demographic-analysis-bandung/   </br>
 ## Datasets Utilized  </br>
 
 The datasets focus on Bandung City's population data across multiple demographic dimensions:  </br>
-e-KTP Ownership Coverage in Bandung City  </br>
+- Bandung ID Card-Eligible Population  </br>
 - Bandung Population by Religion  </br>
 - Bandung Population by Blood Type  </br>
 - Bandung Population by Gender  </br>
@@ -63,8 +63,14 @@ e-KTP Ownership Coverage in Bandung City  </br>
 - Bandung Population by Age Group  </br>
 - Bandung Population by Subdistrict  </br>
 - Bandung Population by Marital Status  </br>
+- e-KTP Ownership Coverage in Bandung City  </br>
 - Total Bandung Population  </br>
-- Bandung KTP-Eligible Population  </br>
+
+This data was obtained from following link: </br>
+https://opendata.bandung.go.id/ </br>
+
+Note: </br>
+This data will be updated when the Population and Civil Registration Office updates its data. 
 
 Associated Journal Article </br>
 This research is grounded in the following peer-reviewed publication: </br>
