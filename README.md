@@ -42,9 +42,9 @@ deep-learning-demographic-analysis-bandung/   </br>
 │   ├── DuplicationCleanerMerger.py  </br>
 │   ├── FinalDemographicCleaner.py  </br>
 │   ├── GeneralDataLoader.py  </br>
-│   ├── main.py  </br>
 │   ├── ProfessionalDemographicEDA.py  </br>
-│   └── UltimateDemographicAI.py  </br>
+│   ├── UltimateDemographicAI.py  </br>
+│   └── main.py  </br>
 ├── docs/                               </br>
 │   └── jurnal_registratie_5572.pdf      </br>
 ├── requirements.txt                     </br>
