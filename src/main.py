@@ -18,3 +18,14 @@ cleaner = DuplicationCleanerMerger(
     output_dir="final_cleaned_output"
 )
 cleaner.clean_and_merge()
+
+----------------------------------------------------------------------
+DuplicationCleanerMerger
+----------------------------------------------------------------------
+
+cleaner = FinalDemographicCleaner(
+    dataframes=loader.dataframes,
+    output_dir="ultimate_clean_output"
+)
+
+cleaner.clean_and_export()
