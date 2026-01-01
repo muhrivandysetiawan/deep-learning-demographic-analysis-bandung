@@ -89,7 +89,7 @@ Full PDF available in docs/ folder. </br>
 2.  **Create virtual environment (recommended):** </br>
     ```bash </br>
     python -m venv venv 
-    source venv/bin/activate  # Pada Windows gunakan `venv\Scripts\activate` 
+    source venv/bin/activate  # To Windows use `venv\Scripts\activate` 
     ```
 3.  **Install dependencies:** </br>
     ```bash </br>
