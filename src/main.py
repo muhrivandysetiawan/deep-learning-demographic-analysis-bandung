@@ -29,3 +29,10 @@ cleaner = FinalDemographicCleaner(
 )
 
 cleaner.clean_and_export()
+
+----------------------------------------------------------------------
+ProfessionalDemographicEDA
+----------------------------------------------------------------------
+
+eda_engine = ProfessionalDemographicEDA()
+eda_engine.generate_professional_eda()
