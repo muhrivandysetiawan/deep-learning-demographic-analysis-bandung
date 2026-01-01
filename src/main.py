@@ -36,3 +36,10 @@ ProfessionalDemographicEDA
 
 eda_engine = ProfessionalDemographicEDA()
 eda_engine.generate_professional_eda()
+
+----------------------------------------------------------------------
+UltimateDemographicAI
+----------------------------------------------------------------------
+
+ai = UltimateDemographicAI()
+ai.run_pipeline()
